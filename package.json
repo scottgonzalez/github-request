@@ -1,0 +1,21 @@
+{
+  "name": "github-request",
+  "version": "0.0.0",
+  "description": "Simplified GitHub API requests.",
+  "keywords": [
+    "github",
+    "request"
+  ],
+  "homepage": "https://github.com/scottgonzalez/github-request",
+  "bugs": "https://github.com/scottgonzalez/github-request/issues",
+  "author": {
+    "name": "Scott González",
+    "email": "scott.gonzalez@gmail.com",
+    "url": "http://scottgonzalez.com"
+  },
+  "main": "./lib/request.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scottgonzalez/github-request.git"
+  }
+}
