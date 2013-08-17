@@ -2,6 +2,8 @@
 
 Simplified GitHub API requests.
 
+Support this project by [donating on Gittip](https://www.gittip.com/scottgonzalez/).
+
 ## About
 
 Low level helper for working with the GitHub API.
@@ -35,3 +37,7 @@ github.request({
 ## License
 
 Copyright 2013 Scott González. Released under the terms of the MIT license.
+
+---
+
+Support this project by [donating on Gittip](https://www.gittip.com/scottgonzalez/).
