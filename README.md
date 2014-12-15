@@ -29,11 +29,24 @@ github.request({
 
 ### request(settings, data, callback)
 
+Performs a single request based on the provided settings.
+
 * `settings` (Object): Settings for the HTTPS request.
 * `data` (String): Data to pass for POST requests.
 * `callback` (`function( error, response, meta )`): A callback to invoke when the API call is complete.
   * `response` (Object): The parsed JSON response.
   * `meta` (Object): Metadata from the response headers.
+
+### requestAll(settings, callback)
+
+Performs a request based on the provided settings and then requests any additional paged content based on the response. Data from all pages are concatenated together and buffered until the last page of data has been retrieved.
+
+* `settings` (Object): Settings for the HTTPS request.
+* `callback` (`function( error, response, meta )`): A callback to invoke when all API calls are complete.
+  * `response` (Object): The parsed JSON response.
+  * `meta` (Object): Metadata from the headers of the *last* response.
+
+### Response Metadata
 
 The metadata provided contains information from the following headers:
 
