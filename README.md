@@ -32,7 +32,7 @@ github.request({
 Performs a single request based on the provided settings.
 
 * `settings` (Object): Settings for the HTTPS request.
-* `data` (String): Data to pass for POST requests.
+* `data` (Mixed): Data to pass for POST requests. Data is encoded as JSON prior to making the request.
 * `callback` (`function( error, response, meta )`): A callback to invoke when the API call is complete.
   * `response` (Object): The parsed JSON response.
   * `meta` (Object): Metadata from the response headers.
