@@ -49,7 +49,7 @@ The `link` header is parsed into the named `rel` values. For example, `<https://
 
 ## License
 
-Copyright 2013 Scott González. Released under the terms of the MIT license.
+Copyright Scott González. Released under the terms of the MIT license.
 
 ---
 
