@@ -1,6 +1,6 @@
 {
   "name": "github-request",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Simplified GitHub API requests.",
   "keywords": [
     "github",
